@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <link href="css/bootstrap.css" rel="stylesheet">
+  <link href="css/styles.css" rel="stylesheet">
+  <script src="js/jquery-3.6.0.js"></script>
+  <script src="js/scripts.js"></script>
+  <title>Places You've Been</title>
+</head>
+<body>
+  <h1>Places You've Been</h1>
+  <h2>Add a location!</h2>
+  <form id="new-place">
+    <label for="new-location">Location</label>
+    <input type="text" id="new-location">
+    <label for="new-time">Time visited</label>
+    <input type="text" id="new-time">
+    <label for="notes">Notes</label>
+    <input type="text" id="notes">
+  </form>
+
+  <h2>Places:</h2>
+  <ul id="places">
+  </ul>
+
+  <div id="show-place">
+    <p>Location: <span class="location"></span></p>
+    <p>Time visited: <span class="location"></span></p>
+    <p>Notes: <span class="notes"></span></p>
+  </div>
+</body>
+</html>
